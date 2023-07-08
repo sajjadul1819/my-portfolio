@@ -28,6 +28,8 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    margin: 0px 200px;
+
 }
 
 nav>ul {
@@ -45,4 +47,19 @@ nav a {
     text-decoration: none;
     color: #474747;
 
+}
+/* header related style */
+.header{
+    background-color: #FFF8F3;;
+}
+.banner {
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-picture{
+    width: 500px;
+    height: 600px;
+    flex-shrink: 0;
 }
