@@ -112,7 +112,8 @@ main {
     max-width: 1140px;
     margin: 0px auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 
 }
@@ -162,10 +163,32 @@ main section{
 
 /* resume style section */
 
-.resume-column-title{
+.resume-column-title {
     color: #474747;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700px;
 }
 
+.resume-container {
+    display: flex;
+    gap:70px
+}
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.resume-item-description ,.resume-item-institute {
+    color: #757575;
+}
+.resume-container hr {
+margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:20px;;
+}
